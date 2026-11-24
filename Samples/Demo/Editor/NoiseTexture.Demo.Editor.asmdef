@@ -1,0 +1,25 @@
+{
+    "name": "NoiseTexture.Demo.Editor",
+    "rootNamespace": "NoiseTexture.Sample.Editor",
+    "references": [
+        "NoiseTexture",
+        "NoiseTexture.Sample"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.modules.uielements",
+            "expression": "1.0.0",
+            "define": "NOISETEXTURE_UIELEMENTS"
+        }
+    ],
+    "noEngineReferences": false
+}

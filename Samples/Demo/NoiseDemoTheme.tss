@@ -1,0 +1,14 @@
+/* Minimal runtime theme: ships with the demo so PanelSettings never has an empty theme. */
+Button {
+    background-color: rgb(24, 34, 28);
+    color: rgb(225, 232, 226);
+    border-width: 1px;
+    border-color: rgb(60, 90, 70);
+    padding: 3px;
+}
+
+Label {
+    color: rgb(215, 222, 216);
+}
+
+/* The demo sliders are self-styled in C#, so no slider rules are needed here. */

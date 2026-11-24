@@ -1,0 +1,29 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+    <ui:VisualElement name="demo-root" style="position: absolute; left: 0; top: 0; right: 0; bottom: 0; background-color: rgb(6, 8, 7);">
+        <ui:Label text="NOISE TEXTURE — UI TOOLKIT" style="position: absolute; left: 16px; top: 12px; color: rgb(51, 255, 153); font-size: 14px; -unity-font-style: bold;" />
+        <ui:Label text="Sliders change scale and size; buttons switch noise type and presets." style="position: absolute; left: 16px; top: 36px; color: rgb(180, 190, 180); font-size: 12px;" />
+        <ui:VisualElement name="noise" picking-mode="Ignore" style="position: absolute; left: 0; top: 0; right: 0; bottom: 0; opacity: 0.65;" />
+
+        <ui:VisualElement name="controls" style="position: absolute; left: 16px; bottom: 16px; width: 340px; padding: 10px; background-color: rgba(0, 0, 0, 0.7); border-width: 1px; border-color: rgba(51, 255, 153, 0.35);">
+            <ui:Label text="NOISE CONTROLS" style="color: rgb(51, 255, 153); font-size: 12px; -unity-font-style: bold; margin-bottom: 4px;" />
+
+            <ui:Label name="scaleValue" text="Noise scale  x1.0" style="color: rgb(210, 220, 210); font-size: 11px;" />
+            <ui:Slider name="scaleSlider" min="0.2" max="3" value="1" style="height: 20px; margin-bottom: 4px;" />
+
+            <ui:Label name="sizeValue" text="Overlay size  x1.0" style="color: rgb(210, 220, 210); font-size: 11px;" />
+            <ui:Slider name="sizeSlider" min="0.4" max="2.5" value="1" style="height: 20px; margin-bottom: 4px;" />
+
+            <ui:Label name="typeValue" text="Type: Random" style="color: rgb(210, 220, 210); font-size: 11px; margin-bottom: 2px;" />
+            <ui:VisualElement style="flex-direction: row; margin-bottom: 4px;">
+                <ui:Button name="randomButton" text="Random" style="flex-grow: 1; height: 26px; margin-right: 3px; background-color: rgb(20, 71, 41); color: rgb(51, 255, 153); border-width: 1px; border-color: rgb(51, 255, 153); font-size: 11px;" />
+                <ui:Button name="perlinButton" text="Perlin" style="flex-grow: 1; height: 26px; margin-right: 3px; background-color: rgb(10, 15, 12); color: rgb(180, 190, 180); border-width: 1px; border-color: rgba(120, 140, 120, 0.6); font-size: 11px;" />
+                <ui:Button name="voronoiButton" text="Voronoi" style="flex-grow: 1; height: 26px; background-color: rgb(10, 15, 12); color: rgb(180, 190, 180); border-width: 1px; border-color: rgba(120, 140, 120, 0.6); font-size: 11px;" />
+            </ui:VisualElement>
+
+            <ui:VisualElement style="flex-direction: row;">
+                <ui:Button name="togglePreset" text="Toggle preset" style="flex-grow: 1; height: 28px; margin-right: 3px; background-color: rgb(12, 24, 18); color: rgb(51, 255, 153); border-width: 1px; border-color: rgb(51, 255, 153); font-size: 11px;" />
+                <ui:Button name="burstPreset" text="Glitch burst" style="flex-grow: 1; height: 28px; background-color: rgb(24, 12, 12); color: rgb(255, 120, 90); border-width: 1px; border-color: rgb(255, 120, 90); font-size: 11px;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,22 @@
+{
+    "name": "NoiseTexture.Sample",
+    "rootNamespace": "NoiseTexture.Sample",
+    "references": [
+        "NoiseTexture"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.modules.uielements",
+            "expression": "1.0.0",
+            "define": "NOISETEXTURE_UIELEMENTS"
+        }
+    ],
+    "noEngineReferences": false
+}

@@ -1,0 +1,37 @@
+{
+  "name": "com.noisetexture",
+  "version": "1.0.0",
+  "displayName": "Noise Texture Updater",
+  "description": "Burst-driven procedural VHS/CRT noise for UI Toolkit or any other UI: random, Perlin and Voronoi layers with smooth transitions.",
+  "unity": "2022.3",
+  "license": "MIT",
+  "repository": "https://github.com/Kiyzo/noise-texture",
+  "documentationUrl": "https://github.com/Kiyzo/noise-texture/blob/main/README.md",
+  "changelogUrl": "https://github.com/Kiyzo/noise-texture/blob/main/CHANGELOG.md",
+  "licensesUrl": "https://github.com/Kiyzo/noise-texture/blob/main/LICENSE.md",
+  "author": {
+    "name": "NoiseTexture",
+    "url": "https://github.com/Kiyzo"
+  },
+  "keywords": [
+    "ui-toolkit",
+    "noise",
+    "vhs",
+    "crt",
+    "burst",
+    "procedural"
+  ],
+  "dependencies": {
+    "com.unity.burst": "1.8.0",
+    "com.unity.collections": "2.0.0",
+    "com.unity.mathematics": "1.2.0",
+    "com.unity.modules.uielements": "1.0.0"
+  },
+  "samples": [
+    {
+      "displayName": "CRT Noise Demo",
+      "description": "Minimal UIDocument / PanelRenderer / IMGUI examples with live controls.",
+      "path": "Samples/Demo"
+    }
+  ]
+}
