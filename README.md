@@ -6,7 +6,7 @@ Burst `IJobParallelFor`, with animated Random / Perlin / Voronoi layers and smoo
 **Primary tested version: Unity 6000.6.7f1** (the project version where it is developed and
 verified). `2022.3` in `package.json` is the declared minimum.
 
----
+https://github.com/user-attachments/assets/1df38fef-246c-4ca8-8b6b-988c53a4503a
 
 ## Why
 
